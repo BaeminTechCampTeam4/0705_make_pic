@@ -44,7 +44,7 @@ class Controller {
     }
     
     func writeHtml(htmlString: String) {
-        let filename = "/Users/woowabrothers/local-documents/TECHCAMP/7.5_find_woowapeople/".appending("test.html")
+        let filename = "/Users/woowabrothers/local-documents/TECHCAMP/7.5_find_woowapeople/FindWoowaPeople/Swift/".appending("result.html")
 
         do {
             try htmlString.write(toFile: filename, atomically: true, encoding: .utf8)
