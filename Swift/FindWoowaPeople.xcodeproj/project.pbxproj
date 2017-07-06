@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		98C09CE61F0CDAE600326131 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C09CE51F0CDAE600326131 /* main.swift */; };
+		B56768A21F0D24960048E480 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56768A11F0D24960048E480 /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		98C09CE21F0CDAE600326131 /* FindWoowaPeople */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindWoowaPeople; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C09CE51F0CDAE600326131 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B56768A11F0D24960048E480 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				98C09CE51F0CDAE600326131 /* main.swift */,
+				B56768A11F0D24960048E480 /* Controller.swift */,
 			);
 			path = FindWoowaPeople;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C09CE61F0CDAE600326131 /* main.swift in Sources */,
+				B56768A21F0D24960048E480 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +256,7 @@
 				98C09CEB1F0CDAE600326131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
