@@ -9,6 +9,13 @@
 import Foundation
 
 // 경로는 바뀔 수 있기 때문에 더 나은 코드로 리팩토링 예정
-let hex = Controller().readFile(filePath: "/Users/woowabrothers/local-documents/TECHCAMP/7.5_find_woowapeople/FindWoowaPeople/4.tech")
-let htmlString = Controller().makeHtml(hexString: hex)
-Controller().writeHtml(htmlString: htmlString)
+
+let inputPath = readLine()
+
+if let path = inputPath {
+    let hex = Controller().readFile(filePath: inputPath!)
+    let htmlString = Controller().makeHtml(hexString: hex)
+    Controller().writeHtml(htmlString: htmlString, resultPath: path)
+} else {
+    print("경로를 정확히 입력해 주세요")
+}

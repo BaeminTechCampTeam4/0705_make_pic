@@ -27,7 +27,7 @@ class Controller {
         var color = String()
         let closeDiv = "'></div>"
         
-        for (i, c) in hex.characters.enumerated() {
+        for (i, c) in hexString.characters.enumerated() {
             color += String(c)
             
             if(i+1) % 8 == 0 {
@@ -43,8 +43,8 @@ class Controller {
         return result
     }
     
-    func writeHtml(htmlString: String) {
-        let filename = "/Users/woowabrothers/local-documents/TECHCAMP/7.5_find_woowapeople/FindWoowaPeople/Swift/".appending("result.html")
+    func writeHtml(htmlString: String, resultPath: String) {
+        let filename = resultPath.appending("result.html")
 
         do {
             try htmlString.write(toFile: filename, atomically: true, encoding: .utf8)
